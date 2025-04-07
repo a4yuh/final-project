@@ -18,7 +18,7 @@
       <h4>Customer Reviews</h4>
       <form id="reviewForm">
         <input type="hidden" name="game_id" value="<?= esc($game['id']) ?>">
-        <input type="hidden" name="user_id" value="<?= session()->get('user_id') ?>"> <!-- Adjust if using user sessions -->
+        <input type="hidden" name="user_id" value="<?= session()->get('user_id') ?>"> 
         <div class="form-group">
           <label for="rating">Rating (1-5):</label>
           <input type="number" class="form-control" name="rating" min="1" max="5" required>

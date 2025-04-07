@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <!-- Button row -->
+    
       <div class="mb-3">
         <button id="saveToLocal" class="btn btn-success me-2">Save to Account</button>
         <a href="<?= base_url('/') ?>" class="btn btn-primary">Back to Home</a>

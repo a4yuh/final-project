@@ -25,12 +25,12 @@
           height: 100px; 
       }
       
-      /* Updated Carousel Styles */
+    
       .carousel-item img {
           width: 100%;
           height: auto;
           object-fit: contain; /* Ensures the entire image is visible without cropping */
-          max-height: 800px;   /* Sets a maximum height; adjust as needed */
+          max-height: 800px;   
       }
       @media (max-width: 768px) {
           .carousel-item img {
@@ -73,7 +73,7 @@
                   <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://localhost:8080/login">User</a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://localhost/login">User</a></li>
               </ul>
           </div>
       </div>

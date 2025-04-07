@@ -14,7 +14,7 @@ class SearchController extends Controller
             return;
         }
         
-        // Replace with your actual RAWG API key
+        
         $apiKey = 'c150235ea5ef4af98023301e417667ae';
         
         $url = 'https://api.rawg.io/api/games'

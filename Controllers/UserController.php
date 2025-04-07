@@ -80,7 +80,7 @@ class UserController extends Controller
         }
     }
     
-    // Logout the user
+    // Logout
     public function logout()
     {
         session()->destroy();
